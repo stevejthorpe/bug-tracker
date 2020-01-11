@@ -2,11 +2,19 @@
 
 A simple bug tracker build in pure JavaScript.
 
+![Bug Tracker Gif](/images/bug-tracker.gif)
+
 ## Purpose, scope, and objectives
+
+## Technology
+
+- JavaScript
+- Bootstrap4
+- jQuery
 
 ## TODO
 
-### Use Input
+### User Input
 
 - [ ] Add project field
 - [ ] Add developer/assign field
