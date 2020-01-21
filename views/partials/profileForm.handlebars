@@ -1,0 +1,39 @@
+{#if edit}}
+
+<h3>{{editedProfile}}</h3>
+
+<form method="POST" action="" id="profile-form">
+    <input type="text" name=firstname value={{firstname}} placeholder="Firstname" />
+    <input type="text" name="lastname" value={{lastname}} placeholder="Lastname" />
+    <input type="email" name="email" value={{email}} placeholder="Email" />
+    <input type="password" name="password" value="" placeholder="Password" />
+    <input type="number" name="age" value={{age}} placeholder="Age" />
+    <input type="text" name="city" value={{city}} placeholder="City" />
+    <input type="text" name="url" value={{url}} placeholder="Homepage">
+    <!-- <input type="password" name="password" value="" placeholder="Password..."><!--  -->
+
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+    <button type="submit" id='submit'>Submit</button>
+
+</form>
+
+{{else}}
+
+<form method="POST" action="" id="profile-form">
+    <!-- <input type="text" name=firstname  placeholder="Firstname" /> -->
+    <!-- <input type="text" name="lastname" placeholder="Lastname" /> -->
+    <!-- <input type="email" name="email"  placeholder="Email" /> -->
+    <!-- <input type="password" name="password" placeholder="Password" /> -->
+    <input type="number" name="age" placeholder="Age" />
+    <input type="text" name="city" placeholder="City" />
+    <input type="text" name="url" placeholder="Homepage">
+    <!-- <input type="password" name="password" value="" placeholder="Password..."><!--  -->
+
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+    <button type="submit" id='submit'>Submit</button>
+
+</form>
+
+{{/if}}

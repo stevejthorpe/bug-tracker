@@ -1,0 +1,14 @@
+<p id="login-error">{{loginError}}</p>
+
+<p id="password-error">{{passwordError}}</p>
+
+<form method="POST" action="" id="login-form">
+
+    <input type="text" name="email" value="" placeholder="Email address" />
+    <input type="password" name="password" value="">
+
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+    <button type="submit" id='submit'>Login</button>
+
+</form>

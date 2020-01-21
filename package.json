@@ -1,0 +1,37 @@
+{
+  "name": "bug-tracker",
+  "version": "1.0.0",
+  "description": "A basic bug-tracker",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevejthorpe/bug-tracker.git"
+  },
+  "keywords": [
+    "bug-tracker",
+    "JavaScript"
+  ],
+  "author": "Steve Thorpe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevejthorpe/bug-tracker/issues"
+  },
+  "homepage": "https://github.com/stevejthorpe/bug-tracker#readme",
+  "dependencies": {
+    "chance": "^1.1.4",
+    "cookie-parser": "^1.4.4",
+    "cookie-session": "^1.4.0",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.7.2",
+    "helmet": "^3.21.2",
+    "moment": "^2.24.0",
+    "passport": "^0.4.1",
+    "passport-github": "^1.1.0",
+    "pg": "^7.17.1"
+  }
+}
